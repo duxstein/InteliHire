@@ -50,7 +50,7 @@ export default function Home() {
                     </OrbitingCircles>
             </Container>
 
-            <div className="flex flex-col items-center justify-center text-center gap-y-4 mx-auto ">
+            <div className="flex flex-col items-center justify-center text-center gap-y-4 mx-auto " >
               <Container className="relative  md:block overflow-hidden ">
                
                 <ShimmerButton  className="group  relative grid overflow-hidden rounded-full px-2 py-1 shadow-[0_1000px_0_0_hsl(0_0%_15%)_inset] transition-colors duration-200 mx-auto "><span className="backdrop absolute inset-[1px] rounded-full bg-background transition-colors duration-200 group-hover:bg-neutral-800" />
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="relative flex flex-col items-center justify-center w-full py-20 mt-16 companies overflow-hidden ">
+        <div className="relative flex flex-col items-center justify-center w-full py-20 mt-16 companies overflow-hidden " id="feature">
             <Container delay={0.1}>
             <div className="absolute flex  size-40 rounded-full bg-blue-500 blur-[10rem] -top-16 left-1/2 -translate-x-1/2 "></div>
             <div className="px-4 mt-10 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
@@ -136,7 +136,7 @@ export default function Home() {
 
 
 <section>
-<div className="relative flex flex-col items-center justify-center w-full pt-8 pb-14">
+<div className="relative flex flex-col items-center justify-center w-full pt-8 pb-14" id="blog">
             <Container>
                 <div className="flex text-white/90 flex-col items-center text-center max-w-2xl mx-auto">
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading text-white/90 font-medium !leading-snug mt-6">

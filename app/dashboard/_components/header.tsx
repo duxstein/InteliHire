@@ -33,21 +33,24 @@ function Header() {
             
             >Dashboard</li>
             </Link>
-            
+            <Link href={"#feature"} scroll={true}>
             <li className={`hover:text-primary link transition-all
             cursor-pointer text-sm
             ${path=='/dashboard/questions'&&'text-primary font-bold'}
             `}>Features</li>
-              <Link href={"/dashboard/upgrade"}>
+             </Link>
+              <Link href={"#blog"} scroll={true}>
             <li className={`hover:text-primary link transition-all
             cursor-pointer text-sm
             ${path=='/dashboard/upgrade'&&'text-primary font-bold'}
             `}>Blog</li>
             </Link>
+            <Link href={"#contact"} scroll={true}>
             <li className={`hover:text-primary link transition-all
             cursor-pointer text-sm
             ${path=='/dashboard/how'&&'text-primary font-bold'}
             `}>Contact</li>
+             </Link>
         </ul>
         <div className='w-[100px]  flex flex-col-reverse items-end' >
         <UserButton/>

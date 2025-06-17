@@ -11,7 +11,7 @@ import { ShimmerButton } from "./magicui/shimmer-button";
 
 export default function cta() {
   return (
-    <div className="relative flex flex-col items-center justify-center w-full text-white py-20">
+    <div className="relative flex flex-col items-center justify-center w-full text-white py-20" id="contact">
       <Container className="pb-20 pt-16 max-w-6xl mx-auto">
         <div className="relative flex flex-col items-center justify-center py-12 lg:py-20 px-0 rounded-2xl lg:rounded-3xl bg-[#09090B]/20 text-center border border-neutral-700/20 overflow-hidden">
           <Particles
